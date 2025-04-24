@@ -28,9 +28,10 @@ Table Used:
     - INFORMATION_SCHEMA.TABLES
     - INFORMATION_SCHEMA.COLUMNS
 
-![Database Exploratory](https://github.com/user-attachments/assets/850d2a7c-24f8-45cb-8976-0d891aa059d0)
+![WhatsApp Image 2025-04-24 at 4 39 29 PM](https://github.com/user-attachments/assets/c7c4753c-0010-45d0-b28d-eb22a0b126e8)
 
-![WhatsApp Image 2025-04-24 at 4 39 29 PM](https://github.com/user-attachments/assets/fa882509-3bc1-4309-a71b-23aa7409aca4)
+![Database Exploratory](https://github.com/user-attachments/assets/b429748b-364f-4b74-8aa0-414c984eb375)
+
 
 
 # DIMENSIONS EXPLORATION
@@ -39,6 +40,23 @@ SQL functions used:
 - DISTINCT
 - ORDER BY
 
+# DATE EXPLORATION
+Purpose:
+    - To determine the temporal boundaries of key data points.
+    - To understand the range of historical data.
+
+SQL Functions Used:
+    - MIN(), MAX(), DATEDIFF()
+
+# MEASURES EXPLORATION
+Purpose:
+    - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
+    - To identify overall trends or spot anomalies.
+
+SQL Functions Used:
+    - COUNT(), SUM(), AVG()
+
+# 
 
 
     
