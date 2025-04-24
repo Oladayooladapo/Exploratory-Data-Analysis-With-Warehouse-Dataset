@@ -1,4 +1,4 @@
-# DATABASE EXPLORATION
+# 1. DATABASE EXPLORATION
 To understand the structure of the database, I visualise the Entity-Relationship Diagram (ERD) that maps out the tables and their connections. I then proceed to understanding the dimensions and measures in the tables, which sets the foundation of unlimited exploratory of the dataset
 
 Purpose:
@@ -33,4 +33,5 @@ WHERE TABLE_NAME = 'dim_products'
 SELECT *
 FROM INFORMATION_SCHEMA.COLUMNS
 WHERE TABLE_NAME = 'fact_sales'
+
 
