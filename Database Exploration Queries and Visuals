@@ -1,0 +1,36 @@
+# DATABASE EXPLORATION
+To understand the structure of the database, I visualise the Entity-Relationship Diagram (ERD) that maps out the tables and their connections. I then proceed to understanding the dimensions and measures in the tables, which sets the foundation of unlimited exploratory of the dataset
+
+Purpose:
+    - To explore the structure of the database, including the list of tables and their schemas.
+    - To inspect the columns and metadata for specific tables.
+
+select *
+from gold.dim_customers;
+
+select *
+from gold.dim_products;
+
+select DISTINCT category
+from gold.dim_products;
+
+select *
+from gold.fact_sales;
+
+--Explore All Objects in the Database
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES
+
+------Explore All Columns in the Database
+SELECT *
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'dim_customers'
+
+SELECT *
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'dim_products'
+
+SELECT *
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'fact_sales'
+
