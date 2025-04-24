@@ -12,8 +12,8 @@ This repository contains SQL queries I use to create quick analysis in my tasks.
 7. Change over time
 8. Cummulative Analysis
 9. Performance Analysis
-10. Part-to-Whole
-11. Data segmentation
+10. Data segmentation
+11. Part-to-whole Analysis
 12. Reporting
 
 
@@ -56,7 +56,76 @@ Purpose:
 SQL Functions Used:
     - COUNT(), SUM(), AVG()
 
-# 
+# MAGNITUDE ANALYSIS
+Purpose:
+    - To quantify data and group results by specific dimensions.
+    - For understanding data distribution across categories.
+
+SQL Functions Used:
+    - Aggregate Functions: SUM(), COUNT(), AVG()
+    - GROUP BY, ORDER BY
+
+# RANKING ANALYSIS
+Purpose:
+    - To rank items (e.g., products, customers) based on performance or other metrics.
+    - To identify top performers or laggards.
+
+SQL Functions Used:
+    - Window Ranking Functions: RANK(), DENSE_RANK(), ROW_NUMBER(), TOP
+    - Clauses: GROUP BY, ORDER BY
+
+# CHANGE OVER TIME ANALYSIS
+Purpose:
+    - To track trends, growth, and changes in key metrics over time.
+    - For time-series analysis and identifying seasonality.
+    - To measure growth or decline over specific periods.
+
+SQL Functions Used:
+    - Date Functions: DATEPART(), DATETRUNC(), FORMAT()
+    - Aggregate Functions: SUM(), COUNT(), AVG()
+
+# CUMULATIVE ANALYSIS
+Purpose:
+    - To calculate running totals or moving averages for key metrics.
+    - To track performance over time cumulatively.
+    - Useful for growth analysis or identifying long-term trends.
+
+SQL Functions Used:
+    - Window Functions: SUM() OVER(), AVG() OVER()
+
+# PERFORMANCE ANALYSIS
+Purpose:
+    - To measure the performance of products, customers, or regions over time.
+    - For benchmarking and identifying high-performing entities.
+    - To track yearly trends and growth.
+
+SQL Functions Used:
+    - LAG(): Accesses data from previous rows.
+    - AVG() OVER(): Computes average values within partitions.
+    - CASE: Defines conditional logic for trend analysis.
+
+# DATA SEGMENTATION
+Purpose:
+    - To group data into meaningful categories for targeted insights.
+    - For customer segmentation, product categorization, or regional analysis.
+
+SQL Functions Used:
+    - CASE: Defines custom segmentation logic.
+    - GROUP BY: Groups data into segments.
+
+# PART-TO-WHOLE ANALYSIS
+Purpose:
+    - To compare performance or metrics across dimensions or time periods.
+    - To evaluate differences between categories.
+    - Useful for A/B testing or regional comparisons.
+
+SQL Functions Used:
+    - SUM(), AVG(): Aggregates values for comparison.
+    - Window Functions: SUM() OVER() for total calculations.
+
+# REPORTING
+Purpose:
+    - This report consolidates key customer metrics and behaviors
 
 
     
