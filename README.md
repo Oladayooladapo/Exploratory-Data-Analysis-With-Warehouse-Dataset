@@ -1,5 +1,6 @@
 # Exploratory-Data-Analysis-With-Warehouse-Dataset
-This project covers my step-by-step approach in tackling real-life data exercises. 
+This project covers my step-by-step approach in tackling real-life data exercises. A comprehensive collection of SQL scripts for data exploration, analytics, and reporting. These scripts cover various analyses such as database exploration, measures, dimnsions and date, time-based trends, cumulative analytics, segmentation, and more.
+This repository contains SQL queries I use to create quick analysis in my tasks. It also contains subqueries and CTEs which can be stored as a view in the database for quick BI and visuals. Each script focuses on a specific analytical theme for SQL queries.
 
 # WORKFLOW
 1. Database Exploration
