@@ -37,7 +37,7 @@ These queries can easily be stored as views in a relational database to feed Pow
 12. Reporting
 
 
-# DATABASE EXPLORATION
+# Database Exploration
 To understand the structure of the database, I visualise the Entity-Relationship Diagram (ERD) that maps out the tables and their connections. I then proceed to understanding the dimensions and measures in the tables, which sets the foundation of unlimited exploratory of the dataset
 
 Purpose:
@@ -54,13 +54,13 @@ Table Used:
 
 
 
-# DIMENSIONS EXPLORATION
+# Dimensions Exploration
 To identify the unique values and categories in each dimension. Recognising how data might be grouped or segmented for later analysis
 SQL functions used:
 - DISTINCT
 - ORDER BY
 
-# DATE EXPLORATION
+# Date Exploration
 Purpose:
     - To determine the temporal boundaries of key data points.
     - To understand the range of historical data.
@@ -68,7 +68,7 @@ Purpose:
 SQL Functions Used:
     - MIN(), MAX(), DATEDIFF()
 
-# MEASURES EXPLORATION
+# Measures Exploration
 Purpose:
     - To calculate aggregated metrics (e.g., totals, averages) for quick insights.
     - To identify overall trends or spot anomalies.
@@ -76,7 +76,7 @@ Purpose:
 SQL Functions Used:
     - COUNT(), SUM(), AVG()
 
-# MAGNITUDE ANALYSIS
+# Magnitude Analysis
 Purpose:
     - To quantify data and group results by specific dimensions.
     - For understanding data distribution across categories.
@@ -85,7 +85,7 @@ SQL Functions Used:
     - Aggregate Functions: SUM(), COUNT(), AVG()
     - GROUP BY, ORDER BY
 
-# RANKING ANALYSIS
+# Ranking Analysis
 Purpose:
     - To rank items (e.g., products, customers) based on performance or other metrics.
     - To identify top performers or laggards.
@@ -94,7 +94,7 @@ SQL Functions Used:
     - Window Ranking Functions: RANK(), DENSE_RANK(), ROW_NUMBER(), TOP
     - Clauses: GROUP BY, ORDER BY
 
-# CHANGE OVER TIME ANALYSIS
+# Change Over Time Analysis
 Purpose:
     - To track trends, growth, and changes in key metrics over time.
     - For time-series analysis and identifying seasonality.
@@ -104,7 +104,7 @@ SQL Functions Used:
     - Date Functions: DATEPART(), DATETRUNC(), FORMAT()
     - Aggregate Functions: SUM(), COUNT(), AVG()
 
-# CUMULATIVE ANALYSIS
+# Cummulative Analysis
 Purpose:
     - To calculate running totals or moving averages for key metrics.
     - To track performance over time cumulatively.
@@ -113,7 +113,7 @@ Purpose:
 SQL Functions Used:
     - Window Functions: SUM() OVER(), AVG() OVER()
 
-# PERFORMANCE ANALYSIS
+# Performance Analysis
 Purpose:
     - To measure the performance of products, customers, or regions over time.
     - For benchmarking and identifying high-performing entities.
@@ -124,7 +124,7 @@ SQL Functions Used:
     - AVG() OVER(): Computes average values within partitions.
     - CASE: Defines conditional logic for trend analysis.
 
-# DATA SEGMENTATION
+# Data Segmentation
 Purpose:
     - To group data into meaningful categories for targeted insights.
     - For customer segmentation, product categorization, or regional analysis.
@@ -133,7 +133,7 @@ SQL Functions Used:
     - CASE: Defines custom segmentation logic.
     - GROUP BY: Groups data into segments.
 
-# PART-TO-WHOLE ANALYSIS
+# Part-To-Whole Analysis
 Purpose:
     - To compare performance or metrics across dimensions or time periods.
     - To evaluate differences between categories.
@@ -143,7 +143,7 @@ SQL Functions Used:
     - SUM(), AVG(): Aggregates values for comparison.
     - Window Functions: SUM() OVER() for total calculations.
 
-# REPORTING
+# Reporting
 Purpose:
     - This report consolidates key customer metrics and behaviors
     
