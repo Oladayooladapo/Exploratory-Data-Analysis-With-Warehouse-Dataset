@@ -27,5 +27,17 @@ Table Used:
     - INFORMATION_SCHEMA.TABLES
     - INFORMATION_SCHEMA.COLUMNS
 
+![Database Exploratory](https://github.com/user-attachments/assets/850d2a7c-24f8-45cb-8976-0d891aa059d0)
+
+![WhatsApp Image 2025-04-24 at 4 39 29 PM](https://github.com/user-attachments/assets/fa882509-3bc1-4309-a71b-23aa7409aca4)
+
+
+# DIMENSIONS EXPLORATION
+To identify the unique values and categories in each dimension. Recognising how data might be grouped or segmented for later analysis
+SQL functions used:
+- DISTINCT
+- ORDER BY
+
+
 
     
